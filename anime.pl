@@ -126,6 +126,122 @@ ani(kiyokoShimizu):-
   personalidade(seria),
   genero(feminino).
 
+%assassination classroom 8
+ani(koroSensei):-
+  anime(assassination_classroom),
+  cabelo(amarelo),
+  personalidade(divertida),
+  genero(masculino).
+
+ani(nagisaShiota):-
+  anime(assassination_classroom),
+  cabelo(azul),
+  personalidade(calma),
+  genero(masculino).
+
+ani(karmaAkabane):-
+  anime(assassination_classroom),
+  cabelo(vermelho),
+  personalidade(fria),
+  genero(masculino).
+
+ani(kaedeKayano):-
+  anime(assassination_classroom),
+  cabelo(verde),
+  personalidade(gentil),
+  genero(feminino).
+
+ani(tadaomiKarasuma):-
+  anime(assassination_classroom),
+  cabelo(castanho),
+  personalidade(seria),
+  genero(masculino).
+
+ani(irinaJelavić):-
+  anime(assassination_classroom),
+  cabelo(loiro),
+  personalidade(maldosa),
+  genero(feminino).
+
+ani(asanoGakushuu):-
+  anime(assassination_classroom),
+  cabelo(laranja),
+  personalidade(calculista),
+  genero(masculino).
+
+ani(nakamuraRio):-
+  anime(assassination_classroom),
+  cabelo(ploiro),
+  personalidade(divertida),
+  genero(feminino).
+
+%Saiki K. 11
+ani(kusuoSaiki):-
+  anime(saiki_k),
+  cabelo(rosa),
+  personalidade(quieta),
+  genero(masculino).
+
+ani(shunKaidou):-
+  anime(saiki_k),
+  cabelo(branco),
+  personalidade(divertida),
+  genero(masculino).
+
+ani(rikiNendou):-
+  anime(saiki_k),
+  cabelo(loiro),
+  personalidade(preguicosa),
+  genero(masculino).
+
+ani(kokomiTeruhashi):-
+  anime(saiki_k),
+  cabelo(azul),
+  personalidade(calculista),
+  genero(feminino).
+
+ani(arenKuboyasu):-
+  anime(saiki_k),
+  cabelo(roxo),
+  personalidade(agressiva),
+  genero(masculino).
+
+ani(kineshiHairo):-
+  anime(saiki_k),
+  cabelo(vermelho),
+  personalidade(impulsiva),
+  genero(masculino).
+
+ani(reitaToritsuka):-
+  anime(saiki_k),
+  cabelo(roxo),
+  personalidade(preguicosa),
+  genero(masculino).
+
+ani(kuusukeSaiki):-
+  anime(saiki_k),
+  cabelo(loiro),
+  personalidade(fria),
+  genero(masculino).
+
+ani(chisatoMera):-
+  anime(saiki_k),
+  cabelo(vermelho),
+  personalidade(alegre),
+  genero(feminino).
+
+ani(chiyoYumehara):-
+  anime(saiki_k),
+  cabelo(castanho),
+  personalidade(divertida),
+  genero(feminino).
+
+ani(metoriSaiko):-
+  anime(saiki_k),
+  cabelo(branco),
+  personalidade(arrogante),
+  genero(masculino).
+  
 %animes 
 anime(kuroko_no_basuke) :-
   genre(desporto),
@@ -135,6 +251,14 @@ anime(haikyuu):-
   genre(desporto),
   temporadas(4).
 
+anime(assassination_classroom):-
+  genre(comedia),
+  temporadas(2).
+
+anime(saiki_k):-
+  genre(comedia),
+  temporadas(4).
+  
 cabelo(X) :-
   questiona(cabelo, X, [azul, vermelho, verde, rosa, loiro, castanho, preto, laranja, roxo, cinzento, branco]).
 
