@@ -241,8 +241,375 @@ ani(metoriSaiko):-
   cabelo(branco),
   personalidade(arrogante),
   genero(masculino).
+
+  %one piece 34
+ani(luffy):-  
+  anime(one_piece),  
+  cabelo(preto),  
+  personalidade(corajoso),  
+  genero(masculino).  
   
-%animes 
+ani(zoroRoronoa):-  
+  anime(one_piece),  
+  cabelo(verde),  
+  personalidade(leal),  
+  genero(masculino).  
+  
+ani(nami):-  
+  anime(one_piece),  
+  cabelo(laranja),  
+  personalidade(inteligente),  
+  genero(feminino).  
+  
+ani(sanji):-  
+  anime(one_piece),  
+  cabelo(loiro),  
+  personalidade(galante),  
+  genero(masculino).  
+  
+ani(Chopper):-  
+  anime(one_piece),  
+  cabelo(careca),  
+  personalidade(tímido),  
+  genero(masculino).  
+  
+ani(nicoRobin):-  
+  anime(one_piece),  
+  cabelo(preto),  
+  personalidade(misteriosa),  
+  genero(feminino).  
+  
+ani(ussop):-  
+  anime(one_piece),  
+  cabelo(castanho),  
+  personalidade(covarde),  
+  genero(masculino).  
+  
+ani(franky):-  
+  anime(one_piece),  
+  cabelo(azul),  
+  personalidade(excêntrica),  
+  genero(masculino).  
+  
+ani(brook):-  
+  anime(one_piece),  
+  cabelo(branco),  
+  personalidade(brincalhona),  
+  genero(masculino).  
+  
+ani(jinbe):-  
+  anime(one_piece),  
+  cabelo(preto),  
+  personalidade(sábio),  
+  genero(masculino).  
+  
+ani(boaHancock):-  
+  anime(one_piece),  
+  cabelo(preto),  
+  personalidade(orgulhosa),  
+  genero(feminino).  
+  
+ani(vegaPunk):-  
+  anime(one_piece),  
+  cabelo(azul),  
+  personalidade(genial),  
+  genero(masculino).  
+  
+ani(blackbeard):-  
+  anime(one_piece),  
+  cabelo(preto),  
+  personalidade(ambiciosa),  
+  genero(masculino).  
+  
+ani(akainu):-  
+  anime(one_piece),  
+  cabelo(castanho),  
+  personalidade(rígida),  
+  genero(masculino).  
+  
+ani(garp):-  
+  anime(one_piece),  
+  cabelo(branco),  
+  personalidade(brincalhona),  
+  genero(masculino).  
+  
+ani(portagasDace):-  
+  anime(one_piece),  
+  cabelo(preto),  
+  personalidade(protetora),  
+  genero(masculino).  
+  
+ani(lawTrafalgar):-  
+  anime(one_piece),  
+  cabelo(preto),  
+  personalidade(estrategica),  
+  genero(masculino).  
+  
+ani(enel):-  
+  anime(one_piece),  
+  cabelo(careca),  
+  personalidade(arrogante),  
+  genero(masculino).  
+  
+ani(yamato):-  
+  anime(one_piece),  
+  cabelo(branco),  
+  personalidade(determinada),  
+  genero(masculino).  
+  
+ani(kaido):-  
+  anime(one_piece),  
+  cabelo(preto),  
+  personalidade(dominadora),  
+  genero(masculino).  
+
+ani(coby):-  
+  anime(one_piece),  
+  cabelo(rosa),  
+  personalidade(determinada),  
+  genero(masculino).
+
+ani(sabo):- 
+  anime(one_piece),  
+  cabelo(loiro),  
+  personalidade(lider),  
+  genero(masculino).
+
+ani(viviNefertari):-  
+  anime(one_piece),  
+  cabelo(azul),  
+  personalidade(gentil),  
+  genero(feminino).
+
+ani(crocodile):-
+  anime(one_piece),
+  cabelo(preto),    
+  personalidade(calculista),
+  genero(masculino).
+  
+ani(buggy):-
+  anime(one_piece),
+  cabelo(azul),
+  personalidade(divertida),
+  genero(masculino).
+  
+ani(whitebeard):-
+  anime(one_piece),
+  cabelo(branco),
+  personalidade(protetora),
+  genero(masculino).
+  
+ani(shanks):-
+  anime(one_piece),
+  cabelo(vermelho),
+  personalidade(lider),
+  genero(masculino).
+
+ani(bigMom):-
+  anime(one_piece),
+  cabelo(rosa),
+  personalidade(maldosa),
+  genero(feminino).
+
+ani(kidEustass):- 
+  anime(one_piece),
+  cabelo(vermelho),   
+  personalidade(impetuosa),
+  genero(masculino).
+
+ani(goldRoger):-
+  anime(one_piece),
+  cabelo(preto),
+  personalidade(corajoso),
+  genero(masculino).
+
+ani(Rayleigh):- 
+  anime(one_piece),
+  cabelo(branco),   
+  personalidade(sábio),
+  genero(masculino).
+
+ani(mihawk):-
+  anime(one_piece),
+  cabelo(preto),
+  personalidade(reservado),
+  genero(masculino).
+  
+ani(benBachman):-   
+  anime(one_piece),
+  cabelo(cinzento),
+  personalidade(estrategista),
+  genero(masculino).
+  
+ani(dragon):-
+  anime(one_piece),
+  cabelo(preto),
+  personalidade(visionaria),
+  genero(masculino).
+
+%naruto shippuden 
+ani(narutoUzumaki):-
+  anime(naruto_shippuden),
+  cabelo(loiro),
+  personalidade(alegre),
+  genero(masculino).
+ani(sasukeUchiha):-
+  anime(naruto_shippuden),
+  cabelo(preto),
+  personalidade(calculista),
+  genero(masculino).
+ani(sakuraHaruno):-     
+  anime(naruto_shippuden),
+  cabelo(rosa),
+  personalidade(gentil),
+  genero(feminino).
+ani(kakashiHatake):-
+  anime(naruto_shippuden),
+  cabelo(branco),
+  personalidade(calma),
+  genero(masculino).
+ani(gaara):-
+  anime(naruto_shippuden),
+  cabelo(vermelho),
+  personalidade(seria),
+  genero(masculino).
+ani(rockLee):-
+  anime(naruto_shippuden),
+  cabelo(preto),
+  personalidade(determinada),
+  genero(masculino).
+ani(shikamaruNara):-
+  anime(naruto_shippuden),  
+  cabelo(castanho),
+  personalidade(calma),
+  genero(masculino).
+ani(inoYamanaka):-
+  anime(naruto_shippuden),
+  cabelo(loiro),
+  personalidade(alegre),
+  genero(feminino).
+ani(chojiAkimichi):-
+  anime(naruto_shippuden),
+  cabelo(castanho),
+  personalidade(preguicosa),
+  genero(masculino).
+ani(nejiHyuuga):-
+  anime(naruto_shippuden),
+  cabelo(preto),
+  personalidade(seria),
+  genero(masculino).
+ani(tenten):-
+  anime(naruto_shippuden),
+  cabelo(castanho),
+  personalidade(determinada),
+  genero(feminino).
+ani(kibaInuzuka):-
+  anime(naruto_shippuden),
+  cabelo(castanho),
+  personalidade(agressiva),
+  genero(masculino).
+ani(shinoAburame):-
+  anime(naruto_shippuden),
+  cabelo(preto),
+  personalidade(quieta),
+  genero(masculino).
+ani(hinataHyuga):-
+  anime(naruto_shippuden),
+  cabelo(azul),
+  personalidade(gentil),
+  genero(feminino).
+ani(kurenaiYuhi):-
+  anime(naruto_shippuden),
+  cabelo(preto),
+  personalidade(seria), 
+  genero(feminino).
+ani(asumaSarutobi):-
+  anime(naruto_shippuden),
+  cabelo(castanho),
+  personalidade(lider),
+  genero(masculino).
+ani(temari):- 
+  anime(naruto_shippuden),
+  cabelo(loiro),
+  personalidade(agressiva),
+  genero(feminino).
+ani(kankuro):-
+  anime(naruto_shippuden),
+  cabelo(preto),
+  personalidade(calma),
+  genero(masculino).
+ani(sai):-
+  anime(naruto_shippuden),
+  cabelo(preto),
+  personalidade(quieta),
+  genero(masculino).
+ani(suigetsuHozuki):-
+  anime(naruto_shippuden),
+  cabelo(careca),
+  personalidade(agressiva),
+  genero(masculino).
+ani(kisameHoshigaki):-
+  anime(naruto_shippuden),
+  cabelo(azul),
+  personalidade(maldosa),
+  genero(masculino).
+ani(itachiUchiha):-
+  anime(naruto_shippuden),
+  cabelo(preto),
+  personalidade(calculista),
+  genero(masculino).
+ani(deidara):-
+  anime(naruto_shippuden),  
+  cabelo(loiro),
+  personalidade(agressiva),
+  genero(masculino).
+ani(sasori):-
+  anime(naruto_shippuden),
+  cabelo(vermelho),
+  personalidade(calculista),
+  genero(masculino).
+
+  ani(jiraiya):-
+  anime(naruto_shippuden),
+  cabelo(branco),
+  personalidade(divertida),
+  genero(masculino).
+ani(tsunade):-
+  anime(naruto_shippuden),
+  cabelo(loiro),
+  personalidade(determinada),
+  genero(feminino).
+ani(orochimaru):-
+  anime(naruto_shippuden),
+  cabelo(preto),
+  personalidade(misteriosa),
+  genero(masculino).
+  ani(minatoNamikaze):-
+  anime(naruto_shippuden),
+  cabelo(loiro),
+  personalidade(calma),
+  genero(masculino).
+ani(kushinaUzumaki):-
+  anime(naruto_shippuden),
+  cabelo(vermelho),
+  personalidade(gentil),
+  genero(feminino).
+ani(obitoUchiha):-
+  anime(naruto_shippuden),
+  cabelo(preto),
+  personalidade(determinada),
+  genero(masculino).
+ani(kaguyaOtsutsuki):-
+  anime(naruto_shippuden),
+  cabelo(branco),
+  personalidade(misteriosa),
+  genero(feminino).
+ani(madaraUchiha):-
+  anime(naruto_shippuden),
+  cabelo(preto),
+  personalidade(agressiva),
+  genero(masculino).
+  %animes 
 anime(kuroko_no_basuke) :-
   genre(desporto),
   temporadas(3).
@@ -258,20 +625,60 @@ anime(assassination_classroom):-
 anime(saiki_k):-
   genre(comedia),
   temporadas(4).
-  
-cabelo(X) :-
-  questiona(cabelo, X, [azul, vermelho, verde, rosa, loiro, castanho, preto, laranja, roxo, cinzento, branco]).
 
-personalidade(X) :-
-  questiona(personalidade, X, [calma, agressiva, seria, divertida, calculista, maldosa, preguicosa, alegre, arrogante, impulsiva, quieta, fria, gentil, lider]).
+anime(one_piece):-
+  genre(aventura),
+  temporadas(20).
+
+anime(naruto_shippuden):-
+  genre(acao),
+  temporadas(21).
+
+cabelo(X) :-
+  questiona(cabelo, X, [azul, vermelho, verde, rosa, loiro, castanho, preto, laranja, roxo, cinzento, careca, branco]).
+
+personalidade(X) :-  
+  questiona(personalidade, X, [
+    calma, 
+    agressiva, 
+    seria, 
+    divertida, 
+    calculista, 
+    maldosa, 
+    preguicosa, 
+    alegre, 
+    arrogante, 
+    impulsiva, 
+    quieta, 
+    fria, 
+    gentil, 
+    lider, 
+    sábia, 
+    estratégica, 
+    protetora, 
+    corajosa, 
+    misteriosa, 
+    carismática, 
+    cômica, 
+    compassiva, 
+    determinada, 
+    nobre, 
+    reservada, 
+    enigmática, 
+    visionária, 
+    leal, 
+    galante, 
+    tímido, 
+    inteligente
+  ]).
 
 genero(X) :-
   questiona(genero, X, [masculino, feminino]).
 
 genre(X) :-
-  questiona(genre, X, [desporto]).
+  questiona(genre, X, [desporto, aventura, comedia, acao]).
 
 temporadas(X) :-
-  questiona(temporadas, X, [1, 2, 3, 4, 5, 6, 7, 8]).
+  questiona(temporadas, X, [1, 2, 3, 4, 5, 6, 7, 8, 20, 21]).
 
 objectivo(X) :- ani(X).
