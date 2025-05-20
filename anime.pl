@@ -2,7 +2,7 @@
 ani(kurokoTetsuya) :-
   anime(kuroko_no_basuke),
   cabelo(azul),
-  personalidade(calma),
+  personalidade(quieta),
   genero(masculino).
 
 ani(kagamiTaiga) :-
@@ -44,7 +44,7 @@ ani(momoiSatsuki):-
 ani(teipeiKiyoshi):-
   anime(kuroko_no_basuke),
   cabelo(castanho),
-  personalidade(determinada),
+  personalidade(lider),
   genero(masculino).
 
 ani(hyuugaJunpei):-
@@ -942,7 +942,182 @@ ani(yelena):-
   cabelo(preto),
   personalidade(misteriosa),
   genero(feminino).
-  
+
+%hunter x hunter 21
+ani(gonFreecss):-
+  anime(hunter_x_hunter),
+  cabelo(preto),
+  personalidade(alegre),
+  genero(masculino).
+
+ani(killuaZoldyck):-
+  anime(hunter_x_hunter),
+  cabelo(branco),
+  personalidade(calculista),
+  genero(masculino). 
+
+ani(kurapika):-
+  anime(hunter_x_hunter),
+  cabelo(loiro),
+  personalidade(protetora),
+  genero(masculino).
+
+ani(morowHisoka):-
+  anime(hunter_x_hunter),
+  cabelo(rosa),
+  personalidade(misteriosa),
+  genero(masculino).
+
+ani(meruem):-
+  anime(hunter_x_hunter),
+  cabelo(careca),
+  personalidade(lider),
+  genero(masculino).
+
+ani(luciferChrollo):-
+  anime(hunter_x_hunter),
+  cabelo(preto),
+  personalidade(lider),
+  genero(masculino).
+
+ani(leorioParadinight):-
+  anime(hunter_x_hunter),
+  cabelo(preto),
+  personalidade(carismatica),
+  genero(masculino).
+
+ani(isaacNetero):-
+  anime(hunter_x_hunter),
+  cabelo(branco),
+  personalidade(sabia),
+  genero(masculino).
+
+ani(neferpitou):-
+  anime(hunter_x_hunter),
+  cabelo(branco),
+  personalidade(agressiva),
+  genero(feminino).
+
+ani(portorFeitan):-
+  anime(hunter_x_hunter),
+  cabelo(preto),
+  personalidade(fria),
+  genero(masculino).
+
+ani(kite):-
+  anime(hunter_x_hunter),
+  cabelo(branco),
+  personalidade(quieta),
+  genero(masculino).
+
+ani(illumiZoldyck):-
+  anime(hunter_x_hunter),
+  cabelo(preto),
+  personalidade(impulsiva),
+  genero(masculino).
+
+ani(allukaZoldyck):-
+  anime(hunter_x_hunter),
+  cabelo(preto),
+  personalidade(gentil),
+  genero(feminino).
+
+ani(komugi):-
+  anime(hunter_x_hunter),
+  cabelo(branco),
+  personalidade(sabia),
+  genero(feminino).
+
+ani(gingFreecss):-
+  anime(hunter_x_hunter),
+  cabelo(preto),
+  personalidade(misteriosa),
+  genero(masculino).
+
+ani(murasakiShizuku):-
+  anime(hunter_x_hunter),
+  cabelo(preto),
+  personalidade(calma),
+  genero(feminino).
+
+ani(bineKnuckle):-
+  anime(hunter_x_hunter),
+  cabelo(preto),
+  personalidade(corajosa),
+  genero(masculino).
+
+ani(kruegerBiscuit):-
+  anime(hunter_x_hunter),
+  cabelo(loiro),
+  personalidade(sabia),
+  genero(feminino).
+
+ani(ikalgo):-
+  anime(hunter_x_hunter),
+  cabelo(careca),
+  personalidade(estrategica),
+  genero(masculino).
+
+ani(shaiapouf):-
+  anime(hunter_x_hunter),
+  cabelo(loiro),
+  personalidade(maldosa),
+  genero(masculino).
+
+ani(machiKomachine):-
+  anime(hunter_x_hunter),
+  cabelo(rosa),
+  personalidade(calma),
+  genero(feminino).
+
+%toradora 8
+ani(aisakaTaiga):-
+  anime(toradora),
+  cabelo(laranja),
+  personalidade(impulsiva),
+  genero(feminino).
+
+ani(ryuujiTakasu):-
+  anime(toradora),
+  cabelo(azul),
+  personalidade(calma),
+  genero(masculino).
+
+ani(minoriKushieda):-
+  anime(toradora),
+  cabelo(rosa),
+  personalidade(alegre),
+  genero(feminino).
+
+ani(amiKawashima):-
+  anime(toradora),
+  cabelo(azul),
+  personalidade(arrogante),
+  genero(feminino).
+
+ani(yuusakuKitamura):-
+  anime(toradora),
+  cabelo(preto),
+  personalidade(gentil),
+  genero(masculino).
+
+ani(takasuYasuko):-
+  anime(toradora),
+  cabelo(loiro),
+  personalidade(preguicosa),
+  genero(feminino).
+
+ani(naouSumire):-
+  anime(toradora),
+  cabelo(azul),
+  personalidade(fria),
+  genero(feminino).
+
+ani(harutaKouji):-
+  anime(toradora),
+  cabelo(azul),
+  personalidade(divertida),
+  genero(masculino).
 %animes 
 anime(kuroko_no_basuke) :-
   genre(desporto),
@@ -979,7 +1154,15 @@ anime(horimiya):-
 anime(attack_on_titan):-
   genre(suspense),
   temporadas(4).
-  
+
+anime(hunter_x_hunter):-
+  genre(aventura),
+  temporadas(6).
+
+anime(toradora):-
+  genre(romance),
+  temporadas(1).
+
 %perguntas
 cabelo(X) :-
   questiona(cabelo, X, [azul, vermelho, verde, rosa, loiro, castanho, preto, laranja, roxo, cinzento, careca, branco, prata]).
