@@ -755,6 +755,78 @@ ani(mereoleona):-
   personalidade(corajosa),
   genero(feminino).
 
+%horimiya 12
+ani(miyamuraIzumi):-
+  anime(horimiya),
+  cabelo(preto),
+  personalidade(gentil),
+  genero(masculino).
+
+ani(horiKyousuke):-
+  anime(horimiya),
+  cabelo(cinzento),
+  personalidade(preguicosa),
+  genero(masculino).
+
+ani(yanagiAkane):-
+  anime(horimiya),
+  cabelo(rosa),
+  personalidade(quieta),
+  genero(masculino).
+
+ani(iuraShuu):-
+  anime(horimiya),
+  cabelo(verde),
+  personalidade(alegre),
+  genero(masculino).
+
+ani(ishikawaTooru):-
+  anime(horimiya),
+  cabelo(vermelho),
+  personalidade(protetora),
+  genero(masculino).
+
+ani(horiSouta):-
+  anime(horimiya),
+  cabelo(cinzento),
+  personalidade(divertida),
+  genero(masculino).
+
+ani(sengokuKakeru):-
+  anime(horimiya),
+  cabelo(vermelho),
+  personalidade(seria),
+  genero(masculino).
+
+ani(horiKyouko):-
+  anime(horimiya),
+  cabelo(castanho),
+  personalidade(impulsiva),
+  genero(feminino).
+
+ani(yoshikawaYuki):-
+  anime(horimiya),
+  cabelo(loiro),
+  personalidade(divertida),
+  genero(feminino).
+  
+ani(sawadaHonoka):-
+  anime(horimiya),
+  cabelo(preto),
+  personalidade(corajosa),
+  genero(feminino).
+  
+ani(ayasakiRemi):-
+  anime(horimiya),
+  cabelo(rosa),
+  personalidade(estrategica),
+  genero(feminino).
+
+ani(kounoSakura):-
+  anime(horimiya),
+  cabelo(verde),
+  personalidade(sabia),
+  genero(feminino).
 
   %animes 
 anime(kuroko_no_basuke) :-
@@ -785,12 +857,16 @@ anime(black_clover):-
   genre(acao),
   temporadas(4).
 
+anime(horimiya):-
+  genre(romance),
+  temporadas(2).
+
 cabelo(X) :-
-  questiona(cabelo, X, [azul, vermelho, verde, rosa, loiro, castanho, preto, laranja, roxo, cinzento, careca, branco , prata]).
+  questiona(cabelo, X, [azul, vermelho, verde, rosa, loiro, castanho, preto, laranja, roxo, cinzento, careca, branco, prata]).
 
 personalidade(X) :-  
   questiona(personalidade, X, [calma, agressiva, seria, divertida, calculista, maldosa, preguicosa, alegre,
- arrogante, impulsiva, quieta, fria, gentil, lider, sabio, estrategica,
+ arrogante, impulsiva, quieta, fria, gentil, lider, sabia, estrategica,
  protetora, corajosa, misteriosa, carismatica]
   ).
 
