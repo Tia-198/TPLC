@@ -828,7 +828,122 @@ ani(kounoSakura):-
   personalidade(sabia),
   genero(feminino).
 
-  %animes 
+%aot 20
+ani(leviAckerman):-
+  anime(attack_on_titan),
+  cabelo(preto),
+  personalidade(calculista),
+  genero(masculino).
+
+ani(erenYeager):-
+  anime(attack_on_titan),
+  cabelo(preto),
+  personalidade(impulsiva),
+  genero(masculino).
+
+ani(arletArmin):-
+  anime(attack_on_titan),
+  cabelo(loiro),
+  personalidade(gentil),
+  genero(masculino). 
+
+ani(braunReiner):-
+  anime(attack_on_titan),
+  cabelo(loiro),
+  personalidade(misteriosa),
+  genero(masculino).
+
+ani(kirsteinJean):-
+  anime(attack_on_titan),
+  cabelo(castanho),
+  personalidade(arrogante),
+  genero(masculino).
+
+ani(zeke):-
+  anime(attack_on_titan),
+  cabelo(loiro),
+  personalidade(estrategica),
+  genero(masculino).
+
+ani(fosterFloch):-
+  anime(attack_on_titan),
+  cabelo(laranja),
+  personalidade(fria),
+  genero(masculino).
+
+ani(hooverBertolt):-
+  anime(attack_on_titan),
+  cabelo(preto),
+  personalidade(quieta),
+  genero(masculino).
+
+ani(springerConnie):-
+  anime(attack_on_titan),
+  cabelo(cinzento),
+  personalidade(alegre),
+  genero(masculino).
+
+ani(kennyAckerman):-
+  anime(attack_on_titan),
+  cabelo(preto),
+  personalidade(agressiva),
+  genero(masculino).
+
+ani(mikasaAckerman):-
+  anime(attack_on_titan),
+  cabelo(preto),
+  personalidade(protetora),
+  genero(feminino).
+
+ani(zoeHange):-
+  anime(attack_on_titan),
+  cabelo(castanho),
+  personalidade(sabia),
+  genero(feminino).
+
+ani(blouseSasha):-
+  anime(attack_on_titan),
+  cabelo(castanho),
+  personalidade(alegre),
+  genero(feminino).  
+
+ani(leonhartAnnie):-
+  anime(attack_on_titan),
+  cabelo(loiro),
+  personalidade(fria),
+  genero(feminino).
+
+ani(lenzKrista):-
+  anime(attack_on_titan),
+  cabelo(loiro),
+  personalidade(gentil),
+  genero(feminino).
+
+ani(ymir):-
+  anime(attack_on_titan),
+  cabelo(castanho),
+  personalidade(protetora),
+  genero(feminino).
+
+ani(fingerPieck):-
+  anime(attack_on_titan),
+  cabelo(preto),
+  personalidade(preguicosa),
+  genero(feminino).  
+
+ani(braunGabi):-
+  anime(attack_on_titan),
+  cabelo(castanho),
+  personalidade(impulsiva),
+  genero(feminino).
+
+ani(yelena):-
+  anime(attack_on_titan),
+  cabelo(preto),
+  personalidade(misteriosa),
+  genero(feminino).
+  
+%animes 
 anime(kuroko_no_basuke) :-
   genre(desporto),
   temporadas(3).
@@ -861,6 +976,11 @@ anime(horimiya):-
   genre(romance),
   temporadas(2).
 
+anime(attack_on_titan):-
+  genre(suspense),
+  temporadas(4).
+  
+%perguntas
 cabelo(X) :-
   questiona(cabelo, X, [azul, vermelho, verde, rosa, loiro, castanho, preto, laranja, roxo, cinzento, careca, branco, prata]).
 
