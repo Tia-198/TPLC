@@ -267,7 +267,7 @@ ani(sanji):-
   personalidade(carismatica),  
   genero(masculino).
 
-ani(Chopper):-  
+ani(chopper):-  
   anime(one_piece),  
   cabelo(careca),  
   personalidade(quieta),  
@@ -423,7 +423,7 @@ ani(goldRoger):-
   personalidade(corajosa),  
   genero(masculino).
 
-ani(Rayleigh):- 
+ani(rayleigh):- 
   anime(one_piece),
   cabelo(branco),   
   personalidade(sabio),  
@@ -995,7 +995,7 @@ genero(X) :-
   questiona(genero, X, [masculino, feminino]).
 
 genre(X) :-
-  questiona(genre, X, [desporto, aventura, comedia, acao]).
+  questiona(genre, X, [desporto, aventura, comedia, acao, romance, suspense]).
 
 temporadas(X) :-
   questiona(temporadas, X, [1, 2, 3, 4, 5, 6, 7, 8, 20, 21]).
