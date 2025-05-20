@@ -293,14 +293,14 @@ ani(franky):-
 
 ani(brook):-  
   anime(one_piece),  
-  cabelo(branco),  
+  cabelo(preto),  
   personalidade(divertida),  
   genero(masculino).
 
 ani(jinbe):-  
   anime(one_piece),  
   cabelo(preto),  
-  personalidade(sabio),  
+  personalidade(sabia),  
   genero(masculino).
 
 ani(boaHancock):-  
@@ -311,14 +311,14 @@ ani(boaHancock):-
 
 ani(vegaPunk):-  
   anime(one_piece),  
-  cabelo(azul),  
-  personalidade(inteligente),  % substituída por uma próxima válida
+  cabelo(branco),  
+  personalidade(sabia),  
   genero(masculino).
 
 ani(blackbeard):-  
   anime(one_piece),  
   cabelo(preto),  
-  personalidade(ambiciosa),  % substituída por "maldosa"
+  personalidade(maldosa),  
   genero(masculino).
 
 ani(akainu):-  
@@ -354,7 +354,7 @@ ani(enel):-
 ani(yamato):-  
   anime(one_piece),  
   cabelo(branco),  
-  personalidade(determinada),  % substituída por "corajosa"
+  personalidade(corajosa),  
   genero(masculino).
 
 ani(kaido):-  
@@ -366,7 +366,7 @@ ani(kaido):-
 ani(coby):-  
   anime(one_piece),  
   cabelo(rosa),  
-  personalidade(determinada),  % substituída por "corajosa"
+  personalidade(corajosa),  
   genero(masculino).
 
 ani(sabo):-  
@@ -426,13 +426,13 @@ ani(goldRoger):-
 ani(rayleigh):- 
   anime(one_piece),
   cabelo(branco),   
-  personalidade(sabio),  
+  personalidade(sabia),  
   genero(masculino).
 
 ani(mihawk):-  
   anime(one_piece),  
   cabelo(preto),  
-  personalidade(reservado),  % substituída por "fria"
+  personalidade(fria),  
   genero(masculino).
 
 ani(benBachman):-   
@@ -444,7 +444,7 @@ ani(benBachman):-
 ani(dragon):-  
   anime(one_piece),  
   cabelo(preto),  
-  personalidade(visionaria),  % substituída por "calculista"
+  personalidade(calculista),  
   genero(masculino).
 
 %naruto shippuden 32
@@ -463,7 +463,7 @@ ani(sasukeUchiha):-
 ani(sakuraHaruno):- 
   anime(naruto_shippuden), 
   cabelo(rosa), 
-  personalidade(determinada), 
+  personalidade(corajosa), 
   genero(feminino).
 
 ani(kakashiHatake):- 
@@ -481,7 +481,7 @@ ani(gaara):-
 ani(rockLee):- 
   anime(naruto_shippuden), 
   cabelo(preto), 
-  personalidade(determinada), 
+  personalidade(corajosa), 
   genero(masculino).
 
 ani(shikamaruNara):- 
@@ -499,7 +499,7 @@ ani(inoYamanaka):-
 ani(chojiAkimichi):- 
   anime(naruto_shippuden), 
   cabelo(castanho), 
-  personalidade(leal), 
+  personalidade(carismatica), 
   genero(masculino).
 
 ani(nejiHyuuga):- 
@@ -541,13 +541,13 @@ ani(kurenaiYuhi):-
 ani(asumaSarutobi):- 
   anime(naruto_shippuden), 
   cabelo(castanho), 
-  personalidade(calculista), 
+  personalidade(protetora), 
   genero(masculino).
 
 ani(temari):- 
   anime(naruto_shippuden), 
   cabelo(loiro), 
-  personalidade(determinada), 
+  personalidade(corajosa), 
   genero(feminino).
 
 ani(kankuro):- 
@@ -644,7 +644,7 @@ ani(madaraUchiha):-
 ani(asta):-
   anime(black_clover),
   cabelo(cinzento),
-  personalidade(determinada),
+  personalidade(corajosa),
   genero(masculino).
 
 ani(yuno):-
@@ -680,7 +680,7 @@ ani(gordon):-
 ani(noelle):-
   anime(black_clover),
   cabelo(prata),
-  personalidade(determinada),
+  personalidade(corajosa),
   genero(feminino).
 
 ani(julius):-
@@ -710,7 +710,7 @@ ani(finral):-
 ani(william):-
   anime(black_clover),
   cabelo(loiro),
-  personalidade(reservada),
+  personalidade(misteriosa),
   genero(masculino).
 
 ani(vanessa):-
@@ -740,13 +740,13 @@ ani(charmy):-
 ani(secre):-
   anime(black_clover),
   cabelo(preto),
-  personalidade(reservada),
+  personalidade(misteriosa),
   genero(feminino).
 
 ani(klaus):-  
   anime(black_clover),
   cabelo(azul),
-  personalidade(leal),
+  personalidade(seria),
   genero(masculino).
 
 ani(mereoleona):-
