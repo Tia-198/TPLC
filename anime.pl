@@ -644,7 +644,7 @@ ani(madaraUchiha):-
 ani(asta):-
   anime(black_clover),
   cabelo(cinzento),
-  personalidade(corajosa),
+  personalidade(determinada),
   genero(masculino).
 
 ani(yuno):-
@@ -1118,6 +1118,257 @@ ani(harutaKouji):-
   cabelo(azul),
   personalidade(divertida),
   genero(masculino).
+
+%my_hero_academia 23
+
+ani(midoria):-  
+  anime(my_hero_academia),  
+  cabelo(verde),  
+  personalidade(determinada),  
+  genero(masculino).
+
+ani(bakugo):-  
+  anime(my_hero_academia),  
+  cabelo(loiro),  
+  personalidade(agressiva),  
+  genero(masculino).
+
+ani(todoroki):-  
+  anime(my_hero_academia),  
+  cabelo(branco_vermelho),  
+  personalidade(fria),  
+  genero(masculino).
+
+ani(uraraka):-  
+  anime(my_hero_academia),  
+  cabelo(castanho),  
+  personalidade(gentil),  
+  genero(feminino).
+
+ani(iida):-  
+  anime(my_hero_academia),  
+  cabelo(azul),  
+  personalidade(seria),  
+  genero(masculino).
+
+ani(tsuyu):-  
+  anime(my_hero_academia),  
+  cabelo(verde),  
+  personalidade(calma),  
+  genero(feminino).
+
+ani(allMight):-  
+  anime(my_hero_academia),  
+  cabelo(loiro),  
+  personalidade(carismatica),  
+  genero(masculino).
+
+ani(endeavor):-  
+  anime(my_hero_academia),  
+  cabelo(vermelho),  
+  personalidade(arrogante),  
+  genero(masculino).
+
+ani(eri):-  
+  anime(my_hero_academia),  
+  cabelo(branco),  
+  personalidade(quieta),  
+  genero(feminino).
+
+ani(denki):-  
+  anime(my_hero_academia),  
+  cabelo(amarelo),  
+  personalidade(divertida),  
+  genero(masculino).
+
+ani(jirou):-  
+  anime(my_hero_academia),  
+  cabelo(roxo),  
+  personalidade(misteriosa),  
+  genero(feminino).
+
+ani(hawks):-  
+  anime(my_hero_academia),  
+  cabelo(loiro),  
+  personalidade(estrategica),  
+  genero(masculino).
+
+ani(shigaraki):-  
+  anime(my_hero_academia),  
+  cabelo(azul),  
+  personalidade(arrogante),  
+  genero(masculino).
+
+ani(dabi):-  
+  anime(my_hero_academia),  
+  cabelo(preto),  
+  personalidade(misteriosa),  
+  genero(masculino).
+
+ani(mirio):-  
+  anime(my_hero_academia),  
+  cabelo(loiro),  
+  personalidade(alegre),  
+  genero(masculino).
+
+ani(tamaki):-  
+  anime(my_hero_academia),  
+  cabelo(azul_escuro),  
+  personalidade(quieta),  
+  genero(masculino).
+
+ani(neijire):-  
+  anime(my_hero_academia),  
+  cabelo(azul),  
+  personalidade(carismatica),  
+  genero(feminino).
+
+ani(ashido):-  
+  anime(my_hero_academia),  
+  cabelo(rosa),  
+  personalidade(divertida),  
+  genero(feminino).
+
+ani(kirishima):-  
+  anime(my_hero_academia),  
+  cabelo(vermelho),  
+  personalidade(corajoso),  
+  genero(masculino).
+
+ani(aizawa):-  
+  anime(my_hero_academia),  
+  cabelo(preto),  
+  personalidade(seria),  
+  genero(masculino).
+
+ani(mineta):-  
+  anime(my_hero_academia),  
+  cabelo(roxo),  
+  personalidade(divertida),  
+  genero(masculino).
+
+ani(recoveryGirl):-  
+  anime(my_hero_academia),  
+  cabelo(cinzento),  
+  personalidade(gentil),  
+  genero(feminino).
+
+ani(stain):-  
+  anime(my_hero_academia),  
+  cabelo(preto),  
+  personalidade(impulsiva),  
+  genero(masculino).
+
+
+
+% solo_leveling 11
+
+ani(sungJinwoo):-  
+  anime(solo_leveling),  
+  cabelo(preto),  
+  personalidade(determinada),  
+  genero(masculino).
+
+ani(chaHaein):-  
+  anime(solo_leveling),  
+  cabelo(loiro),  
+  personalidade(gentil),  
+  genero(feminino).
+
+ani(leeJoohee):-  
+  anime(solo_leveling),  
+  cabelo(marrom),  
+  personalidade(quieta),  
+  genero(feminino).
+
+ani(joongIn):-  
+  anime(solo_leveling),  
+  cabelo(preto),  
+  personalidade(seria),  
+  genero(masculino).
+
+ani(leeSooHyun):-  
+  anime(solo_leveling),  
+  cabelo(castanho),  
+  personalidade(alegre),  
+  genero(masculino).
+
+ani(leeJinah):-  
+  anime(solo_leveling),  
+  cabelo(preto),  
+  personalidade(calma),  
+  genero(feminino).
+
+ani(thomasAndre):-  
+  anime(solo_leveling),  
+  cabelo(loiro),  
+  personalidade(estrategica),  
+  genero(masculino).
+
+ani(ashborn):-  
+  anime(solo_leveling),  
+  cabelo(preto),  
+  personalidade(lider),  
+  genero(masculino).
+
+ani(baekYoojin):-  
+  anime(solo_leveling),  
+  cabelo(cinza),  
+  personalidade(misteriosa),  
+  genero(masculino).
+
+ani(beru):-  
+  anime(solo_leveling),  
+  cabelo(branco),  
+  personalidade(calma),  
+  genero(masculino).
+
+ani(jeongIn):-  
+  anime(solo_leveling),  
+  cabelo(preto),  
+  personalidade(quieta),  
+  genero(masculino).
+
+% kaiju_no_ko 6
+
+ani(kafka):-  
+  anime(kaiju_no_8),  
+  cabelo(preto),  
+  personalidade(determinada),  
+  genero(masculino).
+
+ani(reno):-  
+  anime(kaiju_no_8),  
+  cabelo(prateado),  
+  personalidade(seria),  
+  genero(masculino).
+
+ani(soshiroHoshina):-  
+  anime(kaiju_no_8),  
+  cabelo(preto),  
+  personalidade(estrategica),  
+  genero(masculino).
+
+ani(kikoru):-  
+  anime(kaiju_no_8),  
+  cabelo(loiro),  
+  personalidade(orgulhosa),  
+  genero(feminino).
+
+ani(minaAshiro):-  
+  anime(kaiju_no_8),  
+  cabelo(preto),  
+  personalidade(calma),  
+  genero(feminino).
+
+ani(iharuFuruhashi):-  
+  anime(kaiju_no_8),  
+  cabelo(rosa),  
+  personalidade(impulsiva),  
+  genero(masculino).
+
+
+
 %animes 
 anime(kuroko_no_basuke) :-
   genre(desporto),
@@ -1163,14 +1414,28 @@ anime(toradora):-
   genre(romance),
   temporadas(1).
 
+anime(my_hero_academia):-
+  genre(superhero),
+  temporadas(8).
+
+anime(solo_leveling):-
+  genre(sobrenatural),
+  temporadas(2).
+
+
+anime(kaiju_no_8):-
+  genre(acao),
+  temporadas(1).
+
+
 %perguntas
 cabelo(X) :-
-  questiona(cabelo, X, [azul, vermelho, verde, rosa, loiro, castanho, preto, laranja, roxo, cinzento, careca, branco, prata]).
+  questiona(cabelo, X, [azul, vermelho, verde, rosa, loiro, castanho, preto, laranja, roxo, cinzento, careca, branco, prata, branco_vermelho]).
 
 personalidade(X) :-  
   questiona(personalidade, X, [calma, agressiva, seria, divertida, calculista, maldosa, preguicosa, alegre,
  arrogante, impulsiva, quieta, fria, gentil, lider, sabia, estrategica,
- protetora, corajosa, misteriosa, carismatica]
+ protetora, corajosa, misteriosa, carismatica , determinada]
   ).
 
 
@@ -1178,9 +1443,10 @@ genero(X) :-
   questiona(genero, X, [masculino, feminino]).
 
 genre(X) :-
-  questiona(genre, X, [desporto, aventura, comedia, acao, romance, suspense]).
+  questiona(genre, X, [desporto, aventura, comedia, acao, romance, suspense, superhero, sobrenatural]).
 
 temporadas(X) :-
   questiona(temporadas, X, [1, 2, 3, 4, 5, 6, 7, 8, 20, 21]).
 
 objectivo(X) :- ani(X).
+
